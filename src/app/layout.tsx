@@ -10,7 +10,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "Kayren | Business Consulting",
-  description: "Consultoría de Negocios, Estrategia & RRHH. Parte de Lupitex Consulting Group.",
+  description: "Business Consulting, Strategy & HR. Part of Lupitex Consulting Group.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth">
       <body className={`${ibmPlexSans.variable} antialiased`}>
         {children}
       </body>

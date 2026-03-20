@@ -12,13 +12,13 @@ export default function Home() {
               <span className="text-3xl font-bold text-[var(--color-teal)] tracking-tighter">KAYREN</span>
             </div>
             <div className="hidden md:flex space-x-12 items-center">
-              <a href="#estrategia" className="text-sm font-medium text-gray-900 hover:text-[var(--color-terracotta)] transition-colors">Estrategia</a>
-              <a href="#rrhh" className="text-sm font-medium text-gray-900 hover:text-[var(--color-terracotta)] transition-colors">Recursos Humanos</a>
-              <a href="#resultados" className="text-sm font-medium text-gray-900 hover:text-[var(--color-terracotta)] transition-colors">Resultados</a>
+              <a href="#strategy" className="text-sm font-medium text-gray-900 hover:text-[var(--color-terracotta)] transition-colors">Strategy</a>
+              <a href="#hr" className="text-sm font-medium text-gray-900 hover:text-[var(--color-terracotta)] transition-colors">Human Resources</a>
+              <a href="#impact" className="text-sm font-medium text-gray-900 hover:text-[var(--color-terracotta)] transition-colors">Impact</a>
             </div>
             <div className="hidden md:flex">
-              <a href="#contacto" className="text-sm font-semibold bg-black text-white px-7 py-3.5 rounded-full hover:bg-[var(--color-terracotta)] hover:text-white transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-black/10">
-                Agendar Consulta
+              <a href="#contact" className="text-sm font-semibold bg-black text-white px-7 py-3.5 rounded-full hover:bg-[var(--color-terracotta)] hover:text-white transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-black/10">
+                Book a Consultation
               </a>
             </div>
           </div>
@@ -32,24 +32,24 @@ export default function Home() {
             <div className="lg:col-span-7">
               <div className="inline-flex items-center px-4 py-2 rounded-full border border-gray-200 bg-gray-50 text-sm font-medium mb-8 text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-[var(--color-terracotta)] mr-3 animate-pulse"></span> 
-                Parte de Lupitex Consulting Group
+                A member of Lupitex Consulting Group
               </div>
               <h1 className="text-6xl sm:text-7xl lg:text-[5.5rem] font-bold leading-[1.05] tracking-tight mb-8 text-gray-900">
-                Precisión <br className="hidden sm:block"/>
+                Strategic <br className="hidden sm:block"/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-teal)] to-[var(--color-terracotta)]">
-                  estratégica.
+                  precision.
                 </span><br />
-                Calidez humana.
+                Human warmth.
               </h1>
               <p className="text-xl lg:text-2xl text-gray-500 mb-12 max-w-2xl font-light leading-relaxed">
-                Consultoría de alto nivel en estrategia corporativa y desarrollo de talento humano. Diseñamos el futuro de tu organización para escalar con propósito.
+                High-level consulting in corporate strategy and human talent development. We design the future of your organization to scale with purpose.
               </p>
               <div className="flex flex-col sm:flex-row gap-5">
-                <a href="#contacto" className="inline-flex justify-center items-center px-8 py-4 text-base font-semibold rounded-full text-white bg-[var(--color-teal)] hover:bg-[var(--color-teal)]/90 transition-all duration-300 shadow-xl shadow-teal-900/20 group">
-                  Iniciar transformación <ArrowUpRight className="ml-2 w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                <a href="#contact" className="inline-flex justify-center items-center px-8 py-4 text-base font-semibold rounded-full text-white bg-[var(--color-teal)] hover:bg-[var(--color-teal)]/90 transition-all duration-300 shadow-xl shadow-teal-900/20 group">
+                  Start transformation <ArrowUpRight className="ml-2 w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </a>
-                <a href="#estrategia" className="inline-flex justify-center items-center px-8 py-4 text-base font-semibold rounded-full text-gray-900 bg-white border-2 border-gray-200 hover:border-gray-900 hover:bg-gray-50 transition-all duration-300">
-                  Explorar servicios
+                <a href="#strategy" className="inline-flex justify-center items-center px-8 py-4 text-base font-semibold rounded-full text-gray-900 bg-white border-2 border-gray-200 hover:border-gray-900 hover:bg-gray-50 transition-all duration-300">
+                  Explore services
                 </a>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-3xl font-bold text-gray-900">98%</p>
-                    <p className="text-sm font-medium text-gray-500">Proyectos exitosos</p>
+                    <p className="text-sm font-medium text-gray-500">Successful projects</p>
                   </div>
                 </div>
               </div>
@@ -83,15 +83,15 @@ export default function Home() {
       </section>
 
       {/* Strategy Section - Bento Grid Concept */}
-      <section id="estrategia" className="py-32 bg-gray-50">
+      <section id="strategy" className="py-32 bg-gray-50">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="mb-20 max-w-3xl">
-            <h2 className="text-sm font-bold tracking-widest text-[var(--color-terracotta)] uppercase mb-4">01. Estrategia</h2>
+            <h2 className="text-sm font-bold tracking-widest text-[var(--color-terracotta)] uppercase mb-4">01. Strategy</h2>
             <h3 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-              Transformamos visión <br/>en planes ejecutables.
+              We turn vision <br/>into executable plans.
             </h3>
             <p className="text-xl text-gray-500 font-light">
-              Desarrollamos marcos estratégicos sólidos que aseguran el crecimiento sostenible y la ventaja competitiva en el mercado actual.
+              We develop robust strategic frameworks that ensure sustainable growth and competitive advantage in today's market.
             </p>
           </div>
 
@@ -101,7 +101,7 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-1/2 h-full">
                 <Image 
                   src="/assets/strategy-whiteboard.png" 
-                  alt="Estrategia corporativa" 
+                  alt="Corporate strategy" 
                   fill
                   className="object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
                 />
@@ -111,12 +111,12 @@ export default function Home() {
                 <div className="w-14 h-14 bg-[var(--color-teal)]/10 rounded-2xl flex items-center justify-center mb-8">
                   <Target className="w-7 h-7 text-[var(--color-teal)]" />
                 </div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4">Planificación Estratégica</h4>
+                <h4 className="text-2xl font-bold text-gray-900 mb-4">Strategic Planning</h4>
                 <p className="text-gray-600 mb-8 leading-relaxed">
-                  Análisis profundo del entorno y estructura para definir rutas de acción claras hacia los objetivos corporativos.
+                  In-depth analysis of the environment and structure to define clear action paths towards corporate objectives.
                 </p>
                 <ul className="space-y-3 mt-auto">
-                  {["Análisis competitivo", "Modelos operativos", "Gestión del cambio"].map((item, i) => (
+                  {["Competitive analysis", "Operating models", "Change management"].map((item, i) => (
                     <li key={i} className="flex items-center text-sm font-medium text-gray-700">
                       <ChevronRight className="w-4 h-4 text-[var(--color-terracotta)] mr-2" /> {item}
                     </li>
@@ -128,8 +128,8 @@ export default function Home() {
             {/* Small card 1 */}
             <div className="bg-[var(--color-teal)] rounded-[2rem] p-10 text-white flex flex-col justify-between hover:shadow-2xl hover:shadow-teal-900/20 transition-all duration-500">
               <div>
-                <h4 className="text-2xl font-bold mb-4">Ejecución</h4>
-                <p className="text-white/80 font-light">La estrategia no es nada sin una implementación táctica rigurosa.</p>
+                <h4 className="text-2xl font-bold mb-4">Execution</h4>
+                <p className="text-white/80 font-light">Strategy is nothing without rigorous tactical implementation.</p>
               </div>
               <div className="mt-12 flex justify-end">
                 <div className="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-[var(--color-teal)] transition-colors cursor-pointer">
@@ -142,31 +142,31 @@ export default function Home() {
       </section>
 
       {/* HR Section - Clean Minimal Layout */}
-      <section id="rrhh" className="py-32 bg-white">
+      <section id="hr" className="py-32 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="relative aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl order-2 lg:order-1">
               <Image 
                 src="/assets/hr-meeting.png" 
-                alt="Recursos Humanos" 
+                alt="Human Resources" 
                 fill
                 className="object-cover"
               />
             </div>
             <div className="order-1 lg:order-2">
-              <h2 className="text-sm font-bold tracking-widest text-[var(--color-terracotta)] uppercase mb-4">02. Talento Humano</h2>
+              <h2 className="text-sm font-bold tracking-widest text-[var(--color-terracotta)] uppercase mb-4">02. Human Talent</h2>
               <h3 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8 tracking-tight">
-                El talento es el motor <br/>de tu empresa.
+                Talent is the engine <br/>of your business.
               </h3>
               <p className="text-xl text-gray-500 font-light mb-12 leading-relaxed">
-                Diseñamos culturas organizacionales excepcionales y procesos de gestión de personas que atraen, desarrollan y retienen a los mejores profesionales de la industria.
+                We design exceptional organizational cultures and people management processes that attract, develop, and retain the best professionals in the industry.
               </p>
               
               <div className="space-y-6">
                 {[
-                  { title: "Cultura Organizacional", desc: "Alineación del equipo con el propósito corporativo." },
-                  { title: "Desarrollo de Liderazgo", desc: "Formación de ejecutivos y líderes de alto impacto." },
-                  { title: "Retención y Onboarding", desc: "Sistemas para maximizar el ciclo de vida del empleado." }
+                  { title: "Organizational Culture", desc: "Aligning the team with the corporate purpose." },
+                  { title: "Leadership Development", desc: "Training executives and high-impact leaders." },
+                  { title: "Retention & Onboarding", desc: "Systems to maximize the employee lifecycle." }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:border-[var(--color-terracotta)]/30 transition-colors">
                     <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-sm mr-5 flex-shrink-0">
@@ -185,7 +185,7 @@ export default function Home() {
       </section>
 
       {/* Results Section - Dark & Impactful */}
-      <section id="resultados" className="py-32 bg-black text-white relative overflow-hidden">
+      <section id="impact" className="py-32 bg-black text-white relative overflow-hidden">
         {/* Abstract background image */}
         <div className="absolute inset-0 opacity-40">
            <Image 
@@ -199,18 +199,18 @@ export default function Home() {
 
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="text-sm font-bold tracking-widest text-[var(--color-terracotta)] uppercase mb-4">03. Impacto</h2>
-            <h3 className="text-4xl lg:text-6xl font-bold mb-6 tracking-tight">Resultados que trascienden.</h3>
+            <h2 className="text-sm font-bold tracking-widest text-[var(--color-terracotta)] uppercase mb-4">03. Impact</h2>
+            <h3 className="text-4xl lg:text-6xl font-bold mb-6 tracking-tight">Results that transcend.</h3>
             <p className="text-xl text-white/60 font-light">
-              Nuestra metodología está diseñada para generar un retorno de inversión claro y medible.
+              Our methodology is designed to generate a clear and measurable return on investment.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { num: "01", metric: "Estrategia", desc: "Planes de acción claros, medibles y orientados a resultados financieros concretos." },
-              { num: "02", metric: "Cultura", desc: "Equipos alineados con el propósito corporativo y con altos índices de satisfacción." },
-              { num: "03", metric: "Eficiencia", desc: "Optimización de procesos internos para maximizar recursos y talento." }
+              { num: "01", metric: "Strategy", desc: "Clear, measurable action plans oriented towards concrete financial results." },
+              { num: "02", metric: "Culture", desc: "Teams aligned with the corporate purpose and with high satisfaction rates." },
+              { num: "03", metric: "Efficiency", desc: "Optimization of internal processes to maximize resources and talent." }
             ].map((item, index) => (
               <div key={index} className="p-10 border border-white/10 rounded-[2rem] bg-white/5 backdrop-blur-md hover:bg-white/10 hover:-translate-y-2 transition-all duration-500">
                 <span className="text-5xl font-light text-white/20 block mb-6">{item.num}</span>
@@ -223,31 +223,31 @@ export default function Home() {
       </section>
 
       {/* Footer / About Us - Minimal & Structured */}
-      <footer id="contacto" className="bg-[var(--background)] border-t border-gray-200">
+      <footer id="contact" className="bg-[var(--background)] border-t border-gray-200">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-20 lg:py-24">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
             <div className="lg:col-span-5 pr-8">
               <span className="text-3xl font-bold tracking-tighter text-[var(--color-teal)] mb-6 block">KAYREN</span>
               <p className="text-gray-500 mb-8 max-w-md text-lg font-light leading-relaxed">
-                Consultoría de Negocios, Estrategia & RRHH. Aportamos profesionalismo, precisión y calidez humana a cada desafío corporativo.
+                Business Consulting, Strategy & HR. We bring professionalism, precision, and human warmth to every corporate challenge.
               </p>
               <div className="inline-flex items-center px-4 py-2 border border-gray-200 rounded-full text-sm font-medium text-gray-600 bg-gray-50">
                 <Building2 className="w-4 h-4 mr-2 text-[var(--color-terracotta)]" />
-                Miembro de Lupitex Consulting Group
+                A member of Lupitex Consulting Group
               </div>
             </div>
             
             <div className="lg:col-span-3 lg:col-start-7">
-              <h4 className="text-sm font-bold tracking-widest text-gray-900 uppercase mb-6">Navegación</h4>
+              <h4 className="text-sm font-bold tracking-widest text-gray-900 uppercase mb-6">Navigation</h4>
               <ul className="space-y-4">
-                <li><a href="#estrategia" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">Estrategia Corporativa</a></li>
-                <li><a href="#rrhh" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">Recursos Humanos</a></li>
-                <li><a href="#resultados" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">Resultados e Impacto</a></li>
+                <li><a href="#strategy" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">Corporate Strategy</a></li>
+                <li><a href="#hr" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">Human Resources</a></li>
+                <li><a href="#impact" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">Results and Impact</a></li>
               </ul>
             </div>
 
             <div className="lg:col-span-3">
-              <h4 className="text-sm font-bold tracking-widest text-gray-900 uppercase mb-6">Contacto</h4>
+              <h4 className="text-sm font-bold tracking-widest text-gray-900 uppercase mb-6">Contact</h4>
               <ul className="space-y-5">
                 <li className="flex items-start">
                   <MapPin className="w-5 h-5 mr-3 text-[var(--color-teal)] flex-shrink-0 mt-0.5" />
@@ -255,19 +255,20 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-[var(--color-teal)] flex-shrink-0" />
-                  <a href="mailto:contacto@kayren.com" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">contacto@kayren.com</a>
+                  <a href="mailto:contact@kayren.com" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">contact@kayren.com</a>
                 </li>
               </ul>
             </div>
           </div>
           
           <div className="mt-20 pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center text-sm font-medium text-gray-400">
-            <p>© {new Date().getFullYear()} Kayren LLC. Todos los derechos reservados.</p>
-            <p className="mt-4 md:mt-0">Una empresa de <span className="text-gray-900">Lupitex Consulting Group LLC</span></p>
+            <p>© {new Date().getFullYear()} Kayren LLC. All rights reserved.</p>
+            <p className="mt-4 md:mt-0">A company of <span className="text-gray-900">Lupitex Consulting Group LLC</span></p>
           </div>
         </div>
       </footer>
     </div>
   );
 }
+
 
