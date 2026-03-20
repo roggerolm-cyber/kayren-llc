@@ -255,7 +255,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-[var(--color-teal)] flex-shrink-0" />
-                  <a href="mailto:contact@kayren.com" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">contact@kayren.com</a>
+                  <a href="mailto:info@kayrenl.com" className="text-gray-500 hover:text-[var(--color-terracotta)] font-medium transition-colors">info@kayrenl.com</a>
                 </li>
               </ul>
             </div>
