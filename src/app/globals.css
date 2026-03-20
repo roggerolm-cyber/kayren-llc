@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal: #09524F;
+  --color-terracotta: #C2784E;
+  --color-graphite: #333333;
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #333333;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-ibm-plex-sans), sans-serif;
+  letter-spacing: -0.03em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* SemiBold as requested */
+}
