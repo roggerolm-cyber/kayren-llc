@@ -32,7 +32,7 @@ export default function Home() {
             <div className="lg:col-span-7">
               <div className="inline-flex items-center px-4 py-2 rounded-full border border-gray-200 bg-gray-50 text-sm font-medium mb-8 text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-[var(--color-terracotta)] mr-3 animate-pulse"></span> 
-                A member of Lupitex Consulting Group
+                Business Consulting, Strategy & HR
               </div>
               <h1 className="text-6xl sm:text-7xl lg:text-[5.5rem] font-bold leading-[1.05] tracking-tight mb-8 text-gray-900">
                 Strategic <br className="hidden sm:block"/>
@@ -233,7 +233,7 @@ export default function Home() {
               </p>
               <div className="inline-flex items-center px-4 py-2 border border-gray-200 rounded-full text-sm font-medium text-gray-600 bg-gray-50">
                 <Building2 className="w-4 h-4 mr-2 text-[var(--color-terracotta)]" />
-                A member of Lupitex Consulting Group
+                Kayren LLC — Miami, FL
               </div>
             </div>
             
@@ -263,7 +263,7 @@ export default function Home() {
           
           <div className="mt-20 pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center text-sm font-medium text-gray-400">
             <p>© {new Date().getFullYear()} Kayren LLC. All rights reserved.</p>
-            <p className="mt-4 md:mt-0">A company of <span className="text-gray-900">Lupitex Consulting Group LLC</span></p>
+            <p className="mt-4 md:mt-0">Kayren LLC</p>
           </div>
         </div>
       </footer>

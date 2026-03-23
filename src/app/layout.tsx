@@ -10,7 +10,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "Kayren | Business Consulting",
-  description: "Business Consulting, Strategy & HR. Part of Lupitex Consulting Group.",
+  description: "Business Consulting, Strategy & HR.",
 };
 
 export default function RootLayout({
