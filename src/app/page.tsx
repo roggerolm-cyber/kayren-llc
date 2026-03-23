@@ -72,8 +72,8 @@ export default function Home() {
                     <CheckCircle2 className="w-6 h-6 text-green-600" />
                   </div>
                   <div>
-                    <p className="text-3xl font-bold text-gray-900">98%</p>
-                    <p className="text-sm font-medium text-gray-500">Successful projects</p>
+                    <p className="text-3xl font-bold text-gray-900">100%</p>
+                    <p className="text-sm font-medium text-gray-500">Client focused</p>
                   </div>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function Home() {
               We turn vision <br/>into executable plans.
             </h3>
             <p className="text-xl text-gray-500 font-light">
-              We develop robust strategic frameworks that ensure sustainable growth and competitive advantage in today's market.
+              We build strategic frameworks designed to drive sustainable growth and position your business for competitive advantage.
             </p>
           </div>
 
@@ -159,7 +159,7 @@ export default function Home() {
                 Talent is the engine <br/>of your business.
               </h3>
               <p className="text-xl text-gray-500 font-light mb-12 leading-relaxed">
-                We design exceptional organizational cultures and people management processes that attract, develop, and retain the best professionals in the industry.
+                We build organizational cultures and people management processes that attract, develop, and retain top professionals.
               </p>
               
               <div className="space-y-6">
@@ -209,7 +209,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { num: "01", metric: "Strategy", desc: "Clear, measurable action plans oriented towards concrete financial results." },
-              { num: "02", metric: "Culture", desc: "Teams aligned with the corporate purpose and with high satisfaction rates." },
+              { num: "02", metric: "Culture", desc: "Teams aligned with the corporate purpose and built for long-term performance." },
               { num: "03", metric: "Efficiency", desc: "Optimization of internal processes to maximize resources and talent." }
             ].map((item, index) => (
               <div key={index} className="p-10 border border-white/10 rounded-[2rem] bg-white/5 backdrop-blur-md hover:bg-white/10 hover:-translate-y-2 transition-all duration-500">
