@@ -10,7 +10,17 @@ const ibmPlexSans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "Kayren | Business Consulting",
-  description: "Business Consulting, Strategy & HR.",
+  description: "Business Consulting, Strategy & HR. High-level consulting in corporate strategy and human talent development.",
+  openGraph: {
+    title: "Kayren | Business Consulting",
+    description: "High-level consulting in corporate strategy and human talent development.",
+    images: [{ url: "/assets/og-image.png", width: 1200, height: 630 }],
+    type: "website",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
